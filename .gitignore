@@ -1,0 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+StockApi/dist
+StockApi/tmp
+StockApi/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+StockApi/node_modules
+stockappclodeclouds/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+StockApi/.idea
+StockApi/.project
+StockApi/.classpath
+StockApi/.c9/
+StockApi/*.launch
+StockApi/.settings/
+StockApi/*.sublime-workspace
+
+# IDE - VSCode
+StockApi/.vscode/*
+StockApi/history/*
+
+# misc
+StockApi/.sass-cache
+StockApi/connect.lock
+StockApi/coverage
+StockApi/libpeerconnection.log
+StockApi/npm-debug.log
+StockApi/yarn-error.log
+StockApi/testem.log
+StockApi/typings
+StockApi/history
+StockApi/node_modules
+
+
+# System Files
+.DS_Store
+Thumbs.db
+

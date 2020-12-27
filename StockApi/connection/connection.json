@@ -1,0 +1,24 @@
+{
+    "production": {
+      "url": "",
+      "port": "",
+      "db": "",
+      "user": "",
+      "password": ""
+    },
+    "development": {
+      "url": "localhost",
+      "port": "27017",
+      "db": "stockdb",
+      "user": "",
+      "password": ""
+    },
+    "test": {
+      "url": "localhost",
+      "port": "27017",
+      "db": "stockdb",
+      "user": "",
+      "password": ""
+    }
+  }
+  
