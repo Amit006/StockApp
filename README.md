@@ -12,3 +12,6 @@ Instruction to start the Application
     ii) run backend by this command: -> nodemon
     
 3) mongodb should be running on localhost:27017     
+
+
+ ==> StockDetails Url is localhost:3000/dashboard
