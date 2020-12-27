@@ -7,18 +7,17 @@
       "password": ""
     },
     "development": {
-      "url": "localhost",
+      "url": "mongo",
       "port": "27017",
       "db": "stockdb",
       "user": "",
       "password": ""
     },
     "test": {
-      "url": "localhost",
+      "url": "mongo",
       "port": "27017",
       "db": "stockdb",
       "user": "",
       "password": ""
     }
   }
-  

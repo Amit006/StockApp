@@ -1,0 +1,22 @@
+version: '2'
+services:
+  nextjs:
+    build: ./stockappclodeclouds
+    ports:
+      - '3000:3000'
+    depends_on:
+      - api
+  api:
+    build: ./StockApi
+    ports:
+      - '4001:4001'
+    depends_on:
+      - mongo
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./data:/data/db
